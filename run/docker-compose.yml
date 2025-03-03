@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  tor:
+    build: ../build
+    container_name: torox
+    ports:
+      - 9050:9050
