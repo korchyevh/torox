@@ -26,4 +26,4 @@ jobs:
        context:
        file: build/Dockerfile
        push: true
-       tags: ${{ env.DOCKER_REGISTRY }}/${{ env.DOCKER_IMAGE_NAME }}:${{ steps.get_version.outputs.VERSION }}
+       tags: 1.0
